@@ -13,3 +13,17 @@ This repository provides an interactive map of all current wildfires around the 
 
     + Each fire icon displays the name of the fire and the location
     
+## Usage
+
+```bash
+npm install
+npm start
+
+# Build
+npm run build
+or
+yarn build
+```
+## API Keys
+
+You will need to add your Google Maps API key in the Map.js component and register for a NASA API key at [https://api.nasa.gov](https://api.nasa.gov). If you deploy, please move the keys to a safe place
